@@ -9,7 +9,6 @@ class Board extends React.Component {
   }
 
   handleSelect(key, value) {
-    console.log(key, value);
     this.setState({ [key]: value });
   }
   render() {
