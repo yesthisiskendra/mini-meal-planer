@@ -1,11 +1,11 @@
 import React from "react";
-import Board from "./Board.js";
+import BoardDD from "./BoardDD.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Board />
+      <BoardDD />
     </div>
   );
 }
